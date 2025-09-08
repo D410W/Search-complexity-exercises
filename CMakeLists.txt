@@ -4,8 +4,11 @@ project (CMakeTests VERSION 1.0.0 LANGUAGES CXX )
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
 include(CTest)
-set( LIB_NAME "mathb" )
-add_subdirectory(math_lib) # This will ask this lib to be build
+#set( LIB_NAME "thalesSearch" )
+#add_subdirectory(src) # This will ask this lib to be build
+
+#target_include_directories(${EXECUTABLE_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR} .)
+
 set ( TEST_DRIVER "all_tests")
 add_subdirectory(tests)    # This will ask the tests to be generated
 
