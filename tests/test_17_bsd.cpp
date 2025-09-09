@@ -1,5 +1,5 @@
 #include <iostream>
-#include "bin_search_dupl.hpp"
+#include "questao_4/bin_search_dupl.hpp"
 
 bool less_than(int a, int b) {
   return a < b;

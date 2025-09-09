@@ -1,5 +1,5 @@
 #include <iostream>
-#include "bitonic_search.hpp"
+#include "questao_3/bitonic_search.hpp"
 
 bool less_than(int a, int b) {
   return a < b;

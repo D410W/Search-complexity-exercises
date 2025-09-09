@@ -1,5 +1,5 @@
 #include <iostream>
-#include "duplicate.hpp"
+#include "questao_8/duplicate.hpp"
 
 int main() {
   

@@ -14,7 +14,7 @@ function(add_custom_test TEST_NAME EXECUTABLE_NAME TEST_SOURCE)
 
 
     # Linkar com o arquivo .hpp    
-    target_include_directories(${EXECUTABLE_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/src)
+    target_include_directories(${EXECUTABLE_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/src )
 
     # Registrar o teste no CTest com o nome desejado
     add_test(NAME "${TEST_NAME}" COMMAND $<TARGET_FILE:${EXECUTABLE_NAME}>)
