@@ -8,3 +8,12 @@ A couple of programming exercises mostly using pointers/iterators and manual mem
 Author: Thales Justino
 
 
+
+## Testing:
+
+Building with CMake and running tests with CTest
+
+'''console
+cmake --build build
+ctest --test-dir build
+'''
