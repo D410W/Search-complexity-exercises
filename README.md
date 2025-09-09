@@ -11,9 +11,10 @@ Author: Thales Justino
 
 ## Testing:
 
-Building with CMake and running tests with CTest
+Building with CMake and running tests with CTest:
 
-'''console
+```bash
 cmake --build build
 ctest --test-dir build
-'''
+```
+
