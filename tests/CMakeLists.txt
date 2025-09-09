@@ -52,3 +52,21 @@ add_custom_test("Testing bitonic_search missing #05" t_13 test_13_bts.cpp)
 add_custom_test("Testing bitonic_search only_crescent #06" t_14 test_14_bts.cpp)
 add_custom_test("Testing bitonic_search only_decrescent #07" t_15 test_15_bts.cpp)
 
+add_custom_test("Testing bin_search_dupl left #01" t_16 test_16_bsd.cpp)
+add_custom_test("Testing bin_search_dupl right #02" t_17 test_17_bsd.cpp)
+add_custom_test("Testing bin_search_dupl middle #03" t_18 test_18_bsd.cpp)
+add_custom_test("Testing bin_search_dupl empty_array #04" t_19 test_19_bsd.cpp)
+add_custom_test("Testing bin_search_dupl missing #05" t_20 test_20_bsd.cpp)
+
+add_custom_test("Testing flr_ceil_range middle #01" t_21 test_21_fcr.cpp)
+add_custom_test("Testing flr_ceil_range left #02" t_22 test_22_fcr.cpp)
+add_custom_test("Testing flr_ceil_range right #03" t_23 test_23_fcr.cpp)
+add_custom_test("Testing flr_ceil_range target_present #04" t_24 test_24_fcr.cpp)
+
+add_custom_test("Testing identity target_present_left #01" t_25 test_25_id.cpp)
+add_custom_test("Testing identity target_present_right #02" t_26 test_26_id.cpp)
+add_custom_test("Testing identity target_not_present #03" t_27 test_27_id.cpp)
+
+add_custom_test("Testing duplicate has_dup #01" t_28 test_28_dup.cpp)
+add_custom_test("Testing duplicate doesnt_have_dup #02" t_29 test_29_dup.cpp)
+

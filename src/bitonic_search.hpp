@@ -1,7 +1,5 @@
 #pragma once
 
-#include <iostream>
-
 namespace ths {
 
   template<typename valuetype, typename Cmp>

@@ -1,0 +1,53 @@
+===================================================
+Welcome to the Hot-Cold Guess game, copyright 2020.
+---------------------------------------------------
+
+These are the game rules:
+    * I’ll choose a random number in [1,50]. Your job is to guess that number.
+    * From the second guess onward, I’ll tell you if your guess
+      is hot (closer than the previous guess) or cold (farther from
+      the previous guess).
+    * If you wish to quit the game, just type in a negative number.
+
+Good luck!
+----------------------------------------------------
+
+50
+>>> Guess the number: 25
+>>> Nop, try again: 
+1 50 0 25 0
+37
+>>> Nop, it’s hot though, try again: 
+25 50 25 37 1
+37
+>>> Nop, it's the same, try again: 
+25 50 37 37 0
+43
+>>> Nop, it’s hot though, try again: 
+37 50 37 43 1
+43
+>>> Nop, it's the same, try again: 
+37 50 43 43 0
+46
+>>> Nop, it’s hot though, try again: 
+43 50 43 46 1
+46
+>>> Nop, it's the same, try again: 
+43 50 46 46 0
+47
+>>> Nop, it’s hot though, try again: 
+46 50 46 47 1
+48
+>>> Nop, it’s hot though, try again: 
+46 50 47 48 0
+49
+>>> Nop, it’s hot though, try again: 
+48 50 48 49 1
+49
+>>> Nop, it's the same, try again: 
+48 50 49 49 0
+50
+>>> Yeah, correct guess!
+
+You got it in '12' tries!
+Thanks for playing.
