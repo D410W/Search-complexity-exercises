@@ -70,3 +70,7 @@ add_custom_test("Testing identity target_not_present #03" t_27 test_27_id.cpp)
 add_custom_test("Testing duplicate has_dup #01" t_28 test_28_dup.cpp)
 add_custom_test("Testing duplicate doesnt_have_dup #02" t_29 test_29_dup.cpp)
 
+add_custom_test("Testing search_rotated in_middle #01" t_30 test_30_srot.cpp)
+add_custom_test("Testing search_rotated all_left #02" t_31 test_31_srot.cpp)
+add_custom_test("Testing search_rotated all_right #03" t_32 test_32_srot.cpp)
+
